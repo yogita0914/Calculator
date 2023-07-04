@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: rgb(63, 60, 60); */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWzkNeWB0se6TEqIufSfn2P_d5_FvtmbCufA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+.container{
+    display: flex;
+   height: 82vh;
+    /* text-align: center; */
+    /* box-shadow: 10px 10px 10px 10px #7a7373 */
+}
+
+.calculator{
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #2e1c1c;
+    /* border: 1px solid #7a7373; */
+    box-shadow: 3px 3px 3px 3px #7a7373;
+    margin-top: 150px;
+} 
+
+h2{
+    color: rgb(240, 233, 233);
+    font-size: 34px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#button{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    margin-top: 25px;
+}
+
+input{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    background-color:rgb(240, 233, 233) ;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(240, 233, 233);
+}
+
+#clean{
+    color: #fff;
+    background-color: rgb(226, 76, 6);
+}
+
+
+#equal{
+    color: #fff;
+    background-color: rgb(226, 76, 6);
+}
+
+.operator{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
