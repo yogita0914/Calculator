@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(178, 241, 178);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 82vh;
+    align-items: center;
+}
+
+.calculator {
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #2e1c1c;
+    box-shadow: 3px 3px 3px 3px #7a7373;
+    margin-top: 150px;
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    color: rgb(240, 233, 233);
+    font-size: 34px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#button {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 25px;
+}
+
+input {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: rgb(240, 233, 233);
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(240, 233, 233);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #ddd;
+}
+
+#clean, #equal, #ac, #percent {
+    color: #fff;
+    background-color: rgb(226, 76, 6);
+}
+
+.operator {
+    color: red;
+}
+
+.extra{
+    color: red;
+}
+
+.delete{
+    color: #fff;
+    background-color: rgb(226, 76, 6)
+}
+
+.decimal{
+    color: red;
+}
+
+@media (max-width: 600px) {
+    .calculator {
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    input {
+        font-size: 18px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 400px) {
+    .calculator {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    input {
+        font-size: 16px;
+        padding: 6px;
+    }
+}
